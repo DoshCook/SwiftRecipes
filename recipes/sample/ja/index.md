@@ -99,7 +99,7 @@ iOS13から `SceneDelegate.swift` というファイルが、テンプレート�
 > *図1-7*
 > 引用: [Scenes | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/app_and_environment/scenes)
 
-:::details SceneDelegate を使わない場合
+<details><summary>SceneDelegate を使わない場合</summary>
 
 iOS13以下への対応をしたい場合や、複数画面を起動して欲しくない場合には以下の手順でファイルを削除しましょう。
 
@@ -144,7 +144,7 @@ iOS13以下への対応をしたい場合や、複数画面を起動して欲し
     ```
 4. SceneDelegate.swift を削除する
     最後に `SceneDelegate.swift` を削除することで `SceneDelegate.swift` を削除することができます。
-:::
+</details>
 
 ## xib を使った開発
 
@@ -164,7 +164,7 @@ SwiftUIについては、UIKitでできることの全てがSwiftUIでできる�
 | xib | ○ | ○ |
 | Storyboard | △ | △ |
 
-:::details イニシャライザでのDIとは
+<details><summary>イニシャライザでのDIとは</summary>
 依存性の注入 （Dependency Injection）をイニシャライザで行うことです。
 
  `xib` を用いる場合には、以下のようにイニシャライザで値を渡すことができます。
@@ -215,7 +215,7 @@ let viewController = storyboard.instantiateInitialViewController { coder in
 ```
 [iOS13ではStoryboardでもDIができる件について - Qiita](https://qiita.com/shtnkgm/items/cad6f52c489612628fd4) より引用
 
-:::
+</details>
 
 これらは組み合わせて使うこともできます。参画するプロジェクトによってやり方は様々です。一概に良し悪しは決められませんが、本書では `xib` を用いた方法で実装していきます。
 
@@ -335,7 +335,7 @@ let viewController = ViewController(nib: R.nib.viewController)
 
 [Mint](https://github.com/yonaskolb/Mint)は Swift製のコマンドラインツールのインストールや実行を管理するツールです。
 
-:::details Mintの導入
+<details><summary>Mintの導入</summary>
 
 Mint の導入は
 ```bash
@@ -345,7 +345,7 @@ $ brew install mint
 $ mint version
 ```
 で行うことができます。
-:::
+</details>
 
 1. インストール
     プロジェクトのルートに `Mintfile` を作成します。
