@@ -1,6 +1,6 @@
 ---
 title: "さんぷる2だよ"
-published: false
+published: true
 ---
 
 ## About
