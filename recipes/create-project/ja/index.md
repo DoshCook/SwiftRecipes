@@ -225,7 +225,7 @@ let viewController = storyboard.instantiateInitialViewController { coder in
 ### 画面を作成する
 
 新規に `Scripts` 以下に `Views` フォルダを作成します。
-ViewController の名前は `CreateProjectSampleViewController` という名前にする予定なので、`CreateProjectSmaple` というフォルダを作成しました。
+ViewController の名前は `CreateProjectSampleViewController` という名前にする予定なので、`CreateProjectSample` というフォルダを作成しました。
 
 現在の構成は次の通りです。
 
