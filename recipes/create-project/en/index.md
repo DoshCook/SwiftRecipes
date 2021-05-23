@@ -1,7 +1,8 @@
 ---
 title: "Create a project, Application development using XIB."
 category: "introduction"
-published: false
+description: ""
+published: true
 ---
 
 ## Introduction
