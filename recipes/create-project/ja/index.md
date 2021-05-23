@@ -2,14 +2,14 @@
 title: "iOSアプリのプロジェクト作成 / XIB を使った開発"
 category: "introduction"
 description: ""
-published: false
+published: true
 ---
 
-## 最初に
+## はじめに
 
-はじめまして。
-まずは、この開発方法が標準的であるとは限りません。
-カレーのレシピが沢山あるように、アプリ開発も
+カレーのレシピが1つではないように、iOSアプリ開発の方法も1つではありません。
+今回紹介する方法は、私が行っている標準的な方法ですが、ベストとは限りません。プロジェクトや人それぞれにベストがあります。
+ここで紹介する私のレシピが、あなたにあった味であれば幸いです。
 
 ## 実行環境
 
@@ -17,8 +17,6 @@ published: false
 🕊 Swift 5.3.2
 🍎 macOS BigSur 11.1
 📱 iOS 13.0 ~ 14.5
-
------
 
 ## プロジェクトを作成しよう
 
@@ -225,6 +223,8 @@ let viewController = storyboard.instantiateInitialViewController { coder in
 新規に `Scripts` 以下に `Views` フォルダを作成します。
 ViewController の名前は `CreateProjectSampleViewController` という名前にする予定なので、`CreateProjectSmaple` というフォルダを作成しました。
 
+現在の構成は次の通りです。
+
 ```
 .
 ├─ プロジェクト名.xcodeproj
@@ -330,3 +330,8 @@ ViewController の名前は `CreateProjectSampleViewController` という名前�
         ```
 
 これで `xib` を使った開発をする準備ができました。
+あとは、`Views` 配下に `ViewController` を配置していく形で開発を進めていきます。
+
+## おわりに
+
+このサイトで紹介するレシピの多くはこのプロジェクト作成方法をベースとしていく予定です。
