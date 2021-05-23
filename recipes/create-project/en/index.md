@@ -26,9 +26,9 @@ Here is a sample. 👉 [DoshCook/SwiftRecipesSample](https://github.com/DoshCook
 
 Let's create a project.
 
-Selct `iOS` > `App` > `next`.(Figure 1)
+Select `iOS` > `App` > `next`.(Figure 1)
 ![Figure 1](https://res.cloudinary.com/swift-recipes/image/upload/v1621774706/create-project/create-project-1-1_kw8546.png)
-*Fig. 1.*
+*Figure 1*
 
 Add a `Product Name` and configure as follows.(Figure 2)
 
