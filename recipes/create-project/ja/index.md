@@ -18,6 +18,10 @@ published: true
 🍎 macOS BigSur 11.1
 📱 iOS 13.0 ~ 14.5
 
+## サンプルについて
+
+サンプルは[DoshCook/SwiftRecipesSample](https://github.com/DoshCook/SwiftRecipesSample/tree/uruly/create-project)にあります。
+
 ## プロジェクトを作成しよう
 
 プロジェクトを作成しましょう。
