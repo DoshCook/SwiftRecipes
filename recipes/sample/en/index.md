@@ -2,7 +2,7 @@
 title: "Sample"
 category: "introduction"
 description: ""
-published: true
+published: false
 ---
 
 This is sample page.
