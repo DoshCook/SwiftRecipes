@@ -9,7 +9,8 @@ SwiftRecipe ではレシピ集を[GitHub](https://github.com/DoshCook/SwiftRecip
 ## 今後の予定
 
 - ダークモード対応
-- `RxSwift` への対応
+- カテゴリ機能
+- 検索機能
 
 ## お問い合わせ
 [Twitter](https://twitter.com/doshcook)

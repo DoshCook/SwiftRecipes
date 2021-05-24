@@ -8,8 +8,9 @@ This site is operated by [DoshCook](https://doshcook.com).
 
 ## Task
 
-- Support for `DarkMode`
-- Support for `RxSwift`
+- Support for `DarkMode`.
+- Categorization of recipes.
+- Search recipes
 
 ## Contact
 [Twitter](https://twitter.com/doshcook)
