@@ -44,7 +44,7 @@ let viewController = ViewController(nib: R.nib.viewController)
 
 [Mint](https://github.com/yonaskolb/Mint)は Swift製のコマンドラインツールのインストールや実行を管理するツールです。
 
-:::details Mintの導入
+<details><summary>Mint の導入</summary>
 
 Mint の導入は
 ```bash
@@ -54,7 +54,7 @@ $ brew install mint
 $ mint version
 ```
 で行うことができます。
-:::
+</details>
 
 1. インストール
     プロジェクトのルートに `Mintfile` を作成します。
@@ -157,13 +157,13 @@ $ mint version
     
     `R.swift` のみを選択して完了します。(図9)
 
-    ![図9]https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift9_hoqtka.png)
+    ![図9](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift9_hoqtka.png)
     *図9*
 
 
 これで R.swift の導入ができました。
 
-## .gitignore で `R.generated.swift` を無視する
+## .gitignore で R.generated.swift を無視する
 
 `R.generated.swift` は自動で生成されるファイルです。このファイルは Git での管理対象から外しておきましょう。
 

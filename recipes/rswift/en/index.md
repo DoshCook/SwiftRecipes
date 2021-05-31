@@ -44,7 +44,7 @@ In this article, I will show you how to install `R.swift` using `Mint`. For othe
 
 [Mint](https://github.com/yonaskolb/Mint) is package manager that installs and runs Swift command line tool packages.
 
-:::details Installing Mint
+<details><summary>Installing Mint</summary>
 
 ```bash
 // Install Mint
@@ -52,7 +52,7 @@ $ brew install mint
 // Check Version
 $ mint version
 ```
-:::
+</details>
 
 1. Installing
     Create a `Mintfile` in the root of your project.
@@ -161,7 +161,7 @@ $ mint version
 
 Now you can install R.swift.
 
-## Ignore `R.generated.swift` in .gitignore
+## Ignore R.generated.swift in .gitignore
 
 The file `R.generated.swift` is generated automatically. This file should be removed from Git's control.
 
