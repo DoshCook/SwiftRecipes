@@ -2,7 +2,7 @@
 title: "Introducing R.swift"
 category: "introduction"
 description: ""
-published: false
+published: true
 ---
 
 `R.swift` is very useful for development with `xib`, so please install it.

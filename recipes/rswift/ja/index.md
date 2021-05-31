@@ -2,7 +2,7 @@
 title: "R.swiftを導入する"
 category: "introduction"
 description: ""
-published: false
+published: true
 ---
 
 `R.swift` は `xib` を使った開発には、とても便利になるので是非導入しておいてください。
