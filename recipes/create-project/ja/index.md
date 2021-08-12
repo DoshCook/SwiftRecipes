@@ -1,7 +1,7 @@
 ---
 title: "iOSアプリのプロジェクト作成 / XIB を使った開発"
 category: "introduction"
-description: ""
+description: "iOSアプリのプロジェクト作成方法とXIBを使った開発方法について紹介しています。ディレクトリ整理の方法やSceneDelegateについても触れています。"
 published: true
 ---
 
