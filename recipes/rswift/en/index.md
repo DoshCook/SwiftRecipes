@@ -1,6 +1,6 @@
 ---
 title: "Introducing R.swift"
-category: "introduction"
+category: "environment"
 description: ""
 published: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "R.swiftを導入する"
-category: "introduction"
+category: "environment"
 description: ""
 published: true
 ---
