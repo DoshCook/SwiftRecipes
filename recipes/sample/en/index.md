@@ -1,6 +1,6 @@
 ---
 title: "Sample"
-category: "introduction"
+category: "ui"
 description: ""
 published: false
 ---

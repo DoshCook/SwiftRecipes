@@ -1,6 +1,6 @@
 ---
 title: "サンプル"
-category: "introduction"
+category: "ui"
 description: ""
 published: false
 ---
