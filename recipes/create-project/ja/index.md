@@ -27,7 +27,7 @@ published: true
 プロジェクトを作成しましょう。
 
 `iOS` `App` を選択して `next` を押します。（図1）
-![図1](https://res.cloudinary.com/swift-recipes/image/upload/v1621774706/create-project/create-project-1-1_kw8546.png)
+![図1](/assets/create-project/images/figure1.png)
 *図1*
 
 `Product Name` をつけて、以下のように設定をします。（図2）
@@ -38,7 +38,7 @@ published: true
 | Life Cycle | UIKit App Delegate |
 | Language | Swift |
 
-![図2](https://res.cloudinary.com/swift-recipes/image/upload/v1621774706/create-project/create-project-1-2_ixfekp.png)
+![図2](/assets/create-project/images/figure2.png)
 *図2*
 
 
@@ -78,10 +78,10 @@ published: true
 
 Xcode内のプロジェクトツリーと、実際のディレクトリ内の構成が図3, 図4のように一致するようにしてください。
 
-![図3](https://res.cloudinary.com/swift-recipes/image/upload/v1621775144/create-project/create-project-1-3_lcg3mi.png)
+![図3](/assets/create-project/images/figure3.png)
 *図3*
 
-![図4](https://res.cloudinary.com/swift-recipes/image/upload/v1621775222/create-project/create-project-1-4_gsbkyx.png)
+![図4](/assets/create-project/images/figure4.png)
 *図4*
 
 
@@ -91,7 +91,7 @@ Xcode内のプロジェクトツリーと、実際のディレクトリ内の構
 
 `Build Settings` で `Info.plist` を `Resources` 下になるように修正します。（図5)
 
-![図5](https://res.cloudinary.com/swift-recipes/image/upload/v1621775659/create-project/create-project-1-5_z4tpz6.png)
+![図5](/assets/create-project/images/figure5.png)
 *図5*
 
 本サイトでは基本的にこの構成でフォルダ分けを行っています。
@@ -100,7 +100,7 @@ Xcode内のプロジェクトツリーと、実際のディレクトリ内の構
 
 iOS13から `SceneDelegate.swift` というファイルが、テンプレートとしてプロジェクトに生成されるようになりました。以下の図6のように、同じアプリを分割して同時に開く場合に利用されます。
 
-> ![図6](https://res.cloudinary.com/swift-recipes/image/upload/v1621775862/create-project/create-project-1-6_jm2h4r.png)
+> ![図6](/assets/create-project/images/figure6.png)
 > *図6*
 > 引用: [Scenes | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/app_and_environment/scenes)
 
@@ -109,7 +109,7 @@ iOS13から `SceneDelegate.swift` というファイルが、テンプレート�
 iOS13以下への対応をしたい場合や、複数画面を起動して欲しくない場合には以下の手順でファイルを削除しましょう。
 
 1. Info.plist より `Application Scene Manifest` を削除する
-    ![図7](https://res.cloudinary.com/swift-recipes/image/upload/v1621776025/create-project/create-project-1-7_eqdcw2.png)
+    ![図7](/assets/create-project/images/figure7.png)
     *図7*
 
 2. `AppDelegate.swift` より `UISceneSession Lifecycle` 以下を削除する
@@ -248,7 +248,7 @@ ViewController の名前は `CreateProjectSampleViewController` という名前�
 ```
 
 `New` > `File` より `Cocoa Touch Class` を選択して `Next` を選択します。（図8）
-![図8](https://res.cloudinary.com/swift-recipes/image/upload/v1621777654/create-project/create-project-1-8_q6ih8g.png)
+![図8](/assets/create-project/images/figure8.png)
 *図8*
 
 `CreateProjectSampleViewController` という名前で、`Also create XIB file` にチェックを入れて作成します。（図9）
@@ -261,7 +261,7 @@ ViewController の名前は `CreateProjectSampleViewController` という名前�
 | Language | Swift |
 
 
-![図9](https://res.cloudinary.com/swift-recipes/image/upload/v1621777739/create-project/create-project-1-9_mpkocr.png)
+![図9](/assets/create-project/images/figure9.png)
 *図9*
 
 ### 最初の画面の表示
@@ -270,14 +270,14 @@ ViewController の名前は `CreateProjectSampleViewController` という名前�
 
 1. `Main.storyboard` は用いないので削除します。
 2. `Info.plist` の `Main storyboard file base name` を削除します。
-    ![図10](https://res.cloudinary.com/swift-recipes/image/upload/v1621777954/create-project/create-project-1-10_xilb4b.png)
+    ![図10](/assets/create-project/images/figure10.png)
     *図10*
 3. アプリ起動時に開く画面の設定をコード上で行う
     起動画面の指定をする場所は、先述の `SceneDelegate.swift` を用いるかどうかによって異なります。
 
     1. SceneDelegate.swiftを用いる場合
         `SceneDelegate` を用いる場合には、`Info.plist` > `Application Scene Manifest` > `Scene Configuration` > `Application Session Role` > `Item 0(Default Configuration)` 内の `Storyboard Name` を削除します。
-        ![図11](https://res.cloudinary.com/swift-recipes/image/upload/v1621777955/create-project/create-project-1-11_lrt410.png)
+        ![図11](/assets/create-project/images/figure11.png)
         *図11*
 
         次に `SceneDelegate.swift` の `scene(_:willConnectTo:options:)` 内に以下を書きます。

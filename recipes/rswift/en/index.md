@@ -86,7 +86,7 @@ $ mint version
 2. Add a Run Script
    
     Open your project in Xcode, open `TARGETS` > `BuidPhases`, and select `New Run Script Phase` from the + button.（Fregure 1）
-    ![Figure 1](https://res.cloudinary.com/swift-recipes/image/upload/v1622368199/rswift/rswift-1-1_fkc9ye.png)
+    ![Figure 1](/assets/rswift/images/figure1.png)
     *Figure 1*
 
     Add the following Script.(Figure 2）
@@ -111,12 +111,12 @@ $ mint version
 
     Add `Input Files` and `Output Files` respectively. (Figure 2)
 
-    ![Figure 2](https://res.cloudinary.com/swift-recipes/image/upload/v1622368199/rswift/rswift-1-1_fkc9ye.png)
+    ![Figure 2](/assets/rswift/images/figure2.png)
     *Figure 2*
 
     Finally, bring it in front of `Compile Sources` (Figure 3) and build it.
 
-    ![Figure 3](https://res.cloudinary.com/swift-recipes/image/upload/v1622368777/rswift/rswift3_bvhkp6.png)
+    ![Figure 3](/assets/rswift/images/figure3.png)
     *Figure 3*
 
     Be sure to move the scripts after Compile Sources, as placing them there may cause errors.
@@ -125,11 +125,11 @@ $ mint version
     
     After building the file as described in step 2, `R.generated.swift` will be generated in the location specified in `Output Files`, so add it to Xcode. (Figure 4)
 
-    ![Figure 4](https://res.cloudinary.com/swift-recipes/image/upload/v1622370298/rswift/rswift4_odon9r.png)
+    ![Figure 4](/assets/rswift/images/figure4.png)
     *Figure 4*
 
     When adding, uncheck `Copy If Needed`. (Figure 5)
-    ![Figure 5](https://res.cloudinary.com/swift-recipes/image/upload/v1622370385/rswift/rswift5_fvpkug.png)
+    ![Figure 5](/assets/rswift/images/figure5.png
     *Figure 5*
 
 
@@ -140,22 +140,22 @@ $ mint version
 
     Select `File` > `Swift Packages` > `Add Package Dependency` from the Xcode navigation bar. (Figure 6)
 
-    ![Figure 6](https://res.cloudinary.com/swift-recipes/image/upload/v1622370584/rswift/rswift6_sgcf4a.png)
+    ![Figure 6](/assets/rswift/images/figure6.png)
     *Figure 6*
 
     Enter `https://github.com/mac-cain13/R.swift.Library` in the `Enter package repositry URL` field. (Figure 7)
 
-    ![Figure 7](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift7_sta3qg.png)
+    ![Figure 7](/assets/rswift/images/figure7.png)
     *Figure 7*
 
     For `Version Rules`, I specified `Update Next Minor`. (Figure 8)
 
-    ![Figure 8](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift8_ugd9yk.png)
+    ![Figure 8](/assets/rswift/images/figure8.png)
     *Figure 8*
     
     Select only `R.swift` to complete. (Figure 9)
 
-    ![Figure 9](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift9_hoqtka.png)
+    ![Figure 9](/assets/rswift/images/figure9.png)
     *Figure 9*
 
 

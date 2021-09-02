@@ -88,7 +88,7 @@ $ mint version
 2. Run Script を追加する
    
     Xcodeでプロジェクトを開き、`TARGETS` > `BuidPhases` を開き、+ボタンより `New Run Script Phase` を選択します。（図1）
-    ![図1](https://res.cloudinary.com/swift-recipes/image/upload/v1622368199/rswift/rswift-1-1_fkc9ye.png)
+    ![図1](/assets/rswift/images/figure1.png)
     *図1*
 
     以下の Script を追加します。(図2）
@@ -113,12 +113,12 @@ $ mint version
 
     をそれぞれ追加します。(図2)
 
-    ![図2](https://res.cloudinary.com/swift-recipes/image/upload/v1622368199/rswift/rswift-1-1_fkc9ye.png)
+    ![図2](/assets/rswift/images/figure2.png)
     *図2*
 
     最後に `Compile Sources` の前に持っていき（図3）、ビルドをしましょう。
 
-    ![図3](https://res.cloudinary.com/swift-recipes/image/upload/v1622368777/rswift/rswift3_bvhkp6.png)
+    ![図3](/assets/rswift/images/figure3.png)
     *図3*
 
     Compile Sources の後に配置しておくと、エラーが出る可能性があるので必ず移動させましょう。
@@ -127,11 +127,11 @@ $ mint version
     
     2の手順でビルドをしたら、 `Output Files` に指定した場所に `R.generated.swift` が生成されるので、それを Xcode 上に追加します。（図4）
 
-    ![図4](https://res.cloudinary.com/swift-recipes/image/upload/v1622370298/rswift/rswift4_odon9r.png)
+    ![図4](/assets/rswift/images/figure4.png)
     *図4*
 
     追加する際には、`Copy If Needed` のチェックをオフにします。（図5）
-    ![図5](https://res.cloudinary.com/swift-recipes/image/upload/v1622370385/rswift/rswift5_fvpkug.png)
+    ![図5](/assets/rswift/images/figure5.png)
     *図5*
 
 
@@ -142,7 +142,7 @@ $ mint version
 
     Xcode のナビゲーションバーより `File` > `Swift Packages` > `Add Package Dependency` を選択します。(図6)
 
-    ![図6](https://res.cloudinary.com/swift-recipes/image/upload/v1622370584/rswift/rswift6_sgcf4a.png)
+    ![図6](/assets/rswift/images/figure6.png)
     *図6*
 
     `Enter package repositry URL` に `https://github.com/mac-cain13/R.swift.Library` を入力します。(図7)
@@ -152,12 +152,12 @@ $ mint version
 
     `Version Rules` は `Update Next Minor` を指定しました。(図8)
 
-    ![図8](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift8_ugd9yk.png)
+    ![図8](/assets/rswift/images/figure8.png)
     *図8*
     
     `R.swift` のみを選択して完了します。(図9)
 
-    ![図9](https://res.cloudinary.com/swift-recipes/image/upload/v1622370747/rswift/rswift9_hoqtka.png)
+    ![図9](/assets/rswift/images/figure9.png)
     *図9*
 
 

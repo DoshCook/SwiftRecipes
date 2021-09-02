@@ -20,14 +20,14 @@ I hope that my recipe presented here is a flavor that suits you.
 
 ## Sample
 
-Here is a sample. 👉 [DoshCook/SwiftRecipesSample](/assets/create-project/images/figure1-1.png).
+Here is a sample. 👉 [DoshCook/SwiftRecipesSample](https://github.com/DoshCook/SwiftRecipesSample/tree/uruly/create-project).
 
 ## Create A Project
 
 Let's create a project.
 
 Select `iOS` > `App` > `next`.(Figure 1)
-![Figure 1](https://res.cloudinary.com/swift-recipes/image/upload/v1621774706/create-project/create-project-1-1_kw8546.png)
+![Figure 1](/assets/create-project/images/figure1.png)
 *Figure 1*
 
 Add a `Product Name` and configure as follows.(Figure 2)
@@ -38,7 +38,7 @@ Add a `Product Name` and configure as follows.(Figure 2)
 | Life Cycle | UIKit App Delegate |
 | Language | Swift |
 
-![Figure 2](https://res.cloudinary.com/swift-recipes/image/upload/v1621774706/create-project/create-project-1-2_ixfekp.png)
+![Figure 2](/assets/create-project/images/figure2.png)
 *Figure 2*
 
 
@@ -78,10 +78,10 @@ Split it in `Resources`, `Scripts` and `Storyboards`.
 
 Make sure that the project tree in Xcode and the structure in the actual directory match as shown in Figure 3 and Figure 4.
 
-![Figure 3](https://res.cloudinary.com/swift-recipes/image/upload/v1621775144/create-project/create-project-1-3_lcg3mi.png)
+![Figure 3](/assets/create-project/images/figure3.png)
 *Figure 3*
 
-![Figure 4](https://res.cloudinary.com/swift-recipes/image/upload/v1621775222/create-project/create-project-1-4_gsbkyx.png)
+![Figure 4](/assets/create-project/images/figure4.png)
 *Figure 4*
 
 
@@ -91,7 +91,7 @@ Because we changed the location of `Info.plist`, we get the following error and 
 
 Modify `Info.plist` in `Build Settings` to be under `Resources`. (Figure 5)
 
-![Figure 5](https://res.cloudinary.com/swift-recipes/image/upload/v1621775659/create-project/create-project-1-5_z4tpz6.png)
+![Figure 5](/assets/create-project/images/figure5.png)
 *Figure 5*
 
 I basically organize my projects into folders like this.
@@ -100,7 +100,7 @@ I basically organize my projects into folders like this.
 
 Starting with iOS13, `SceneDelegate.swift` is generated in the project as a template. It is used to split the same app and open it at the same time, as shown in Figure 6 below.
 
-> ![Figure 6](https://res.cloudinary.com/swift-recipes/image/upload/v1621775862/create-project/create-project-1-6_jm2h4r.png)
+> ![Figure 6](/assets/create-project/images/figure6.png)
 > *Figure 6*
 > Reference: [Scenes | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/app_and_environment/scenes)
 
@@ -109,7 +109,7 @@ Starting with iOS13, `SceneDelegate.swift` is generated in the project as a temp
 If you want to support iOS13 or lower, or if you don't want multiple screens to be activated, follow the steps below to delete the file.
 
 1. Delete `Application Scene Manifest` from `Info.plist`.（Figure 7)
-    ![Figure 7](https://res.cloudinary.com/swift-recipes/image/upload/v1621776025/create-project/create-project-1-7_eqdcw2.png)
+    ![Figure 7](/assets/create-project/images/figure7.png)
     *Figure 7*
 
 2. Delete `UISceneSession Lifecycle` from `AppDelegate.swift`.
@@ -245,7 +245,7 @@ The current configuration is as follows.
 ```
 
 Select `New` > `File` > `Cocoa Touch Class` and `Next`.（Figure 8)
-![Figure 8](https://res.cloudinary.com/swift-recipes/image/upload/v1621777654/create-project/create-project-1-8_q6ih8g.png)
+![Figure 8](/assets/create-project/images/figure8.png)
 *Figure 8*
 
 Create `CreateProjectSampleViewController` and check `Also create XIB file`. (Figure 9)
@@ -258,7 +258,7 @@ Create `CreateProjectSampleViewController` and check `Also create XIB file`. (Fi
 | Language | Swift |
 
 
-![Figure 9](https://res.cloudinary.com/swift-recipes/image/upload/v1621777739/create-project/create-project-1-9_mpkocr.png)
+![Figure 9](/assets/create-project/images/figure9.png)
 *Figure 9*
 
 ### Display Of The First View
@@ -267,14 +267,14 @@ When using `Storyboard`, the screen pointed to by the arrow (→) on the Storybo
 
 1. Remove the `Main.storyboard`.
 2. Remove the `Main storyboard file base name` from `Info.plist`.(Figure 10)
-    ![Figure 10](https://res.cloudinary.com/swift-recipes/image/upload/v1621777954/create-project/create-project-1-10_xilb4b.png)
+    ![Figure 10](/assets/create-project/images/figure10.png)
     *Figure 10*
 3. Configure the screen that opens when the app is launched on the code.
     The location to specify the startup screen depends on whether you use `SceneDelegate.swift` or not.
 
     1. When using SceneDelegate.swift
         If using `SceneDelegate`, Remove the `Storyboard Name` from `Info.plist` > `Application Scene Manifest` > `Scene Configuration` > `Application Session Role` > `Item 0(Default Configuration)`.(Figure 11)
-        ![Figure 11](https://res.cloudinary.com/swift-recipes/image/upload/v1621777955/create-project/create-project-1-11_lrt410.png)
+        ![Figure 11](/assets/create-project/images/figure11.png)
         *Figure 11*
 
         In `SceneDelegate.swift`, put the following in `scene(_:willConnectTo:options:)`.
