@@ -157,9 +157,11 @@ There are many ways to develop iOS applications, even just using the Swift langu
 1. Storyboard
 2. xib
 3. SwiftUI
+4. code only(UIKit)
 
 ### Why Use XIB?
-For SwiftUI, the disadvantage is that not everything you can do with UIKit can still be done with SwiftUI. Secondly, the method of just writing code without using IB at all will not look right until you build it, and it will be complicated to write a lot of code.
+
+Each method has its own merits and demerits, but in this article, we will only compare Storyboard and xib.
 
 `Storyboard` and `xib` are both IB-based methods. `Storyboard` has the advantage of clear screen transitions, but has disadvantages such as conflicts during team development and difficulty in injecting dependencies (DI) in the initializer. Therefore, we choose to develop using `xib`.
  
