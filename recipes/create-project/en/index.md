@@ -20,7 +20,7 @@ I hope that my recipe presented here is a flavor that suits you.
 
 ## Sample
 
-Here is a sample. 👉 [DoshCook/SwiftRecipesSample](https://github.com/DoshCook/SwiftRecipesSample/tree/uruly/create-project).
+Here is a sample. 👉 [DoshCook/SwiftRecipesSample](/assets/create-project/images/figure1-1.png).
 
 ## Create A Project
 
