@@ -8,5 +8,5 @@ published: false
 This is sample page.
 
 Sample image.
-![Figure 1](./images/create-project-1-1.png)
+![Figure 1](/assets/sample-create-project-1-1.png)
 
