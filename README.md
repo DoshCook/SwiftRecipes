@@ -1,7 +1,7 @@
 SwiftRecipe is a site that introduces components that can be used in iOS application development.
 
 ## Repository
-SwiftRecipe publishes a collection of recipes on [GitHub](https://github.com/DoshCook/SwiftRecipes). If you notice any typo or corrections, we would appreciate it if you could set up an issue.
+SwiftRecipe maintains a collection of recipes on [GitHub](https://github.com/DoshCook/SwiftRecipes). If you notice any typo or corrections, we would appreciate it if you could set up an issue.
 
 ## Admin
 This site is operated by [DoshCook](https://doshcook.com).
@@ -9,8 +9,7 @@ This site is operated by [DoshCook](https://doshcook.com).
 ## Task
 
 - Support for `DarkMode`.
-- Categorization of recipes.
 - Search recipes
 
 ## Contact
-[Twitter](https://twitter.com/doshcook)
+[Twitter](https://twitter.com/SwiftRecipes)
