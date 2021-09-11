@@ -1,7 +1,7 @@
 ---
 title: "R.swiftを導入する"
 category: "environment"
-description: ""
+description: "R.swift を使ってリソースを扱いやすくする方法を紹介します。iOSアプリ開発をする際には是非導入してみましょう。"
 order: 2
 published: true
 ---

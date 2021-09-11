@@ -1,7 +1,7 @@
 ---
 title: "Introducing R.swift"
 category: "environment"
-description: ""
+description: "How to introduce R.swift to make resources easier to handle when developing iOS applications."
 order: 2
 published: true
 ---
