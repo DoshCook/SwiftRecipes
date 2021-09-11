@@ -1,7 +1,7 @@
 ---
 title: "SwiftLintを導入する"
 category: "introduction"
-description: ""
+description: "iOSプロジェクトのコードを綺麗に統一されたものにするためのSwiftLintの導入方法を紹介します。"
 published: false
 ---
 
@@ -84,7 +84,7 @@ touch Mintfile
     .
     ├─ プロジェクト名.xcodeproj
     ├─ プロジェクト名
-    ├─  Mintfile
+    ├─ Mintfile
     └─ .swiftlint.yml
     ```
     
@@ -92,29 +92,29 @@ touch Mintfile
 
     ```yaml
     included:
-        - SwiftRecipesSample
+     - SwiftRecipesSample
 
     excluded:
-        - SwiftRecipesSample/Scripts/R.generated.swift
-        - Carthage
+     - SwiftRecipesSample/Scripts/R.generated.swift
+     - Carthage
 
     line_length: 200
     large_tuple: 5
 
     file_length:
-        warning: 500
-        error: 1200
+     warning: 500
+     error: 1200
 
     nesting:
-        type_level:
-            warning: 2
+     type_level:
+      warning: 2
 
     identifier_name:
-        excluded:
-            - id
-            - URL
-            - en
-            - ja
+     excluded:
+      - id
+      - URL
+      - en
+      - ja
     cyclomatic_complexity: 20
     ```
 
@@ -123,8 +123,9 @@ touch Mintfile
     
     その他のルールについては、SwiftLint の[README](https://github.com/realm/SwiftLint#configuration)をご覧ください。
 
+
 4. ビルドをしましょう
-    `.swiftlint.yml` が反映されてない場合には一度クリーンビルド（⌘+Shift+K）をして、ビルドをしましょう。
+    `.swiftlint.yml` が反映されてない場合には一度クリーンビルド（⌘+Shift+K）をして、ビルドをしましょう。それでも反映されない場合には yaml の記述が正しいかの確認をしましょう。（余分なスペースなどに注意しましょう）
 
     SwiftLintが正しく動作しているかを確認する際には、以下のようにルールに反する文を書いてビルドをして確認しましょう。（図3）
     ```swift
