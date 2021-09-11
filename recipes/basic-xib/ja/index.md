@@ -10,7 +10,7 @@ XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。
 
 ## はじめに
 
-プロジェクトの作成は以下を基準としています。
+プロジェクトの作成は以下のレシピを基準としています。
 [iOSアプリのプロジェクト作成 / XIB を使った開発](https://swift-recipes.doshcook.com/recipes/create-project)
 
 ## XIBへの配置
@@ -41,6 +41,8 @@ XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。
 
     <details><summary>現在ついているAutoLayoutの確認方法</summary>
     つけたAutoLayoutを確認する時は、画面上に出ているラインを選択するか、階層の `Constraints` 以下より確認することができます。
+
+
     ![Tips1](/assets/basic-xib/images/tips1.png)
     </details>
 
@@ -93,9 +95,9 @@ XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。
 直接コードの名前のみを変えてしまうと、以下のようなエラーが発生して、クラッシュしてしまいます。
 
 > *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<SwiftRecipesSample.BasicLabelViewController 0x7fe755a09160> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key titleLabel.'
-terminating with uncaught exception of type NSException
+> terminating with uncaught exception of type NSException
 
-このような場合には、XIB上の紐付けを解除が必要になります。
+このような場合には、XIB上の紐付け解除が必要になります。
 .xibファイルを開き、`File's Owner` を選択し、右側の　`Show the Connections inspector` アイコンを押し、Outletsの⚠️がついている部分を×ボタンから削除しましょう。
 ![Tips2](/assets/basic-xib/images/tips2.png)
 
@@ -142,7 +144,7 @@ XIB上で Hello World を選択し、 `Show the Attributes inspector` アイコ�
 ![図15](/assets/basic-xib/images/figure15.png)
 *図15*
 
-また、`descriptionLabel` のテキストも変更しました。
+また、`descriptionLabel` のテキストを 「Have fun with Swift!」に変更しました。
 
 最後に画面の中心から少し上の方にずらしてみましょう。 `titleLabel` の水平方向のラインを選択し、右側の `Show the Attributes inspector` アイコンより、 `Constant` を変更します。（図16）
 

@@ -41,6 +41,8 @@ First, let's place the label on the XIB.
 
     <details><summary>How to check the AutoLayout that is currently attached</summary>
     To check the AutoLayout you have attached, select the line on the screen, or go to `Constraints` in the hierarchy.
+
+
     ![Tips1](/assets/basic-xib/images/tips1.png)
     </details>
 
@@ -96,7 +98,7 @@ If you have made a mistake in the name of the label, you will need to reconfigur
 If you change only the name of the code directly, you will get the following error, and it will crash.
 
 > *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<SwiftRecipesSample.BasicLabelViewController 0x7fe755a09160> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key titleLabel.'
-terminating with uncaught exception of type NSException
+> terminating with uncaught exception of type NSException
 
 In such a case, it is necessary to unlink them on XIB.
 Open the .xib file, select `File's Owner`, press the `Show the Connections inspector` icon on the right side, and press X to remove the Outlets ⚠️.
@@ -128,6 +130,8 @@ Let's place the second label. The next label will be named `descriptionLabel`. T
     *Figure 12*
 
     When adding constraints, make sure you select the target view.(Figure 13)
+
+    ![Figure 13](/assets/basic-xib/images/figure13.png)
     *Figure 13*
 
 3. Add a horizontal constraint.
@@ -152,7 +156,7 @@ Select "Hello World" on the XIB, and change the font from the `Show the Attribut
 ![Figure 15](/assets/basic-xib/images/figure15.png)
 *Figure 15*
 
-We also changed the text of the `descriptionLabel`.
+We also changed the text of the `descriptionLabel` to "Have fun with Swift!".
 
 Finally, let's shift it slightly upward from the center of the screen. Select the horizontal line of the `titleLabel` and change the `Constant` from the `Show the Attributes inspector` icon on the right of the screen. (Figure 16)
 
