@@ -145,7 +145,7 @@ let i = 1 // swiftlint:disable:this identifier_name
 ![図4](/assets/swiftlint/images/figure4.png)
 *図4*
 
-これらの無効化の方法についての詳しい方法については [README](https://github.com/realm/SwiftLint#disable-rules-in-code)をご覧ください。
+これらの無効化の方法の詳細は [README](https://github.com/realm/SwiftLint#disable-rules-in-code)をご覧ください。
 
 ## おわりに
 
