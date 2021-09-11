@@ -6,7 +6,7 @@ order: 1
 published: false
 ---
 
-XIB上に UILabel を配置して、Hello, Wolrd! を表示させましょう。
+XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。
 
 ## はじめに
 
@@ -15,9 +15,9 @@ XIB上に UILabel を配置して、Hello, Wolrd! を表示させましょう。
 
 ## XIBへの配置
 
-まずはラベルを xib 上に配置してみましょう。
+まずはラベルを XIB上に配置してみましょう。
 
-1. 配置したい画面の xib ファイルを開き、+ボタンを選択します(図1)
+1. 配置したい画面の .xib ファイルを開き、+ボタンを選択します(図1)
 
    ![図1](/assets/basic-xib/images/figure1.png)
    *図1*
@@ -40,7 +40,7 @@ XIB上に UILabel を配置して、Hello, Wolrd! を表示させましょう。
     *図4*
 
     <details><summary>現在ついているAutoLayoutの確認方法</summary>
-    つけたAutoLayoutを確認する時は、画面上に出ているラインを選択するか、階層のC `Constraints` 以下より確認することができます。
+    つけたAutoLayoutを確認する時は、画面上に出ているラインを選択するか、階層の `Constraints` 以下より確認することができます。
     ![Tips1](/assets/basic-xib/images/tips1.png)
     </details>
 
@@ -95,8 +95,8 @@ XIB上に UILabel を配置して、Hello, Wolrd! を表示させましょう。
 > *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<SwiftRecipesSample.BasicLabelViewController 0x7fe755a09160> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key titleLabel.'
 terminating with uncaught exception of type NSException
 
-このような場合には、xib 上の紐付けを解除が必要になります。
-xibファイルを開き、`File's Owner` を選択し、右側の　`Show the Connections inspector` アイコンを押し、Outletsの⚠️がついている部分を×ボタンから削除しましょう。
+このような場合には、XIB上の紐付けを解除が必要になります。
+.xibファイルを開き、`File's Owner` を選択し、右側の　`Show the Connections inspector` アイコンを押し、Outletsの⚠️がついている部分を×ボタンから削除しましょう。
 ![Tips2](/assets/basic-xib/images/tips2.png)
 
 それから、再度上記の手順で紐付けを行ってください。
@@ -111,7 +111,7 @@ xibファイルを開き、`File's Owner` を選択し、右側の　`Show the C
 2つ目のラベルを配置しましょう。次のラベルは `descriptionLabel` とします。これは、 `titleLabel` の8px下に設置します。
 
 1. 配置
-    1つ目と同様の手順により、XIB上に配置します。大体おきたいところを目安にドラッグドロップしましょう。（図11）
+    1つ目と同様の手順により、XIB上に配置します。大体おきたいところを目安にドラッグ&ドロップしましょう。（図11）
     ![図11](/assets/basic-xib/images/figure11.png)
     *図11*
 
@@ -149,7 +149,7 @@ XIB上で Hello World を選択し、 `Show the Attributes inspector` アイコ�
 ![図16](/assets/basic-xib/images/figure16.png)
 *図16*
 
-## 複数のラベルを配列で登録する
+## 複数のラベルを配列で接続する
 
 コードへ接続するときには、複数のラベルをまとめて配列に入れることもできます。
 1. 先にコードに以下のように `IBOutlet` をつけた配列を用意します。
