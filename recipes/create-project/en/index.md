@@ -2,6 +2,7 @@
 title: "Create a project, Application development using XIB."
 category: "environment"
 description: "This article describes how to create an iOS app project and how to develop it using XIB. It also discusses how to organize directories and SceneDelegate."
+order: 1
 published: true
 ---
 

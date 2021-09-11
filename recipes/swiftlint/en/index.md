@@ -2,6 +2,7 @@
 title: "Introducing SwiftLint"
 category: "environment"
 description: "Install SwiftLint to make your iOS project code clean and unified. This will be essential to maintain the quality of your code."
+order: 3
 published: true
 ---
 
