@@ -1,6 +1,6 @@
 ---
 title: "SwiftLintを導入する"
-category: "introduction"
+category: "environment"
 description: "iOSプロジェクトのコードを綺麗に統一されたものにするためのSwiftLintの導入方法を紹介します。"
 published: false
 ---
