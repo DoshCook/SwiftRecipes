@@ -3,7 +3,7 @@ title: "XIBを使ったコンポーネント配置の基本"
 category: "uikit-basic"
 description: "XIBの使い方を紹介します。まずはUILabelを設置してHelloWorldを表示させましょう。Interface Builderの基本とコードへの紐付け方法を学ぶことができます。"
 order: 1
-published: false
+published: true
 ---
 
 XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。

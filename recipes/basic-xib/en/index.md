@@ -3,7 +3,7 @@ title: "Basics of component placement using XIB"
 category: "uikit-basic"
 description: "How to use XIB. let's set up a UILabel to display HelloWorld, and learn the basics of Interface Builder and how to connect it to your code."
 order: 1
-published: false
+published: true
 ---
 
 Let's place a UILabel on the XIB and display "Hello Wolrd!"
