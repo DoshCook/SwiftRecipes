@@ -13,6 +13,10 @@ Let's place a UILabel on the XIB and display "Hello Wolrd!"
 Project creation is based on the following.
 [Create a project, Application development using XIB.](https://swift-recipes.doshcook.com/recipes/create-project)
 
+## Sample
+
+Here is a sample.👉[DoshCook/SwiftRecipesSample](https://github.com/DoshCook/SwiftRecipesSample/pull/7)
+
 ## Placement in XIB
 
 First, let's place the label on the XIB.

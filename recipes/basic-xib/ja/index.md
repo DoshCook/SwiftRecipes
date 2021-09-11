@@ -13,6 +13,10 @@ XIB上に UILabel を配置して、Hello Wolrd! を表示させましょう。
 プロジェクトの作成は以下のレシピを基準としています。
 [iOSアプリのプロジェクト作成 / XIB を使った開発](https://swift-recipes.doshcook.com/recipes/create-project)
 
+## サンプル
+
+サンプルは[DoshCook/SwiftRecipesSample](https://github.com/DoshCook/SwiftRecipesSample/pull/7)にあります。
+
 ## XIBへの配置
 
 まずはラベルを XIB上に配置してみましょう。
