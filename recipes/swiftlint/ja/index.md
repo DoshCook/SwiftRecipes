@@ -2,7 +2,7 @@
 title: "SwiftLintを導入する"
 category: "environment"
 description: "iOSプロジェクトのコードを綺麗に統一されたものにするためのSwiftLintの導入方法を紹介します。"
-published: false
+published: true
 ---
 
 `SwiftLint` を導入して、プロジェクトのコードを綺麗に統一されたものにしましょう。コードの品質を保つためには必須になります。
@@ -45,6 +45,7 @@ touch Mintfile
 </details>
 
 1. インストール
+   
     `Mintfile` に以下を追記します。
     ```
     realm/SwiftLint@0.44.0
@@ -60,7 +61,10 @@ touch Mintfile
     ```bash
     mint list
     ```
+
+
 2. Run Script を追加する
+   
    Xcode でプロジェクトを開き、 `TARGETS` > `BuildPhases` を開き、+ボタンより `New Run Script Phase` を選択します。(図１)
     ![図1](/assets/swiftlint/images/figure1.png)
     *図1*
@@ -78,7 +82,9 @@ touch Mintfile
     ![図2](/assets/swiftlint/images/figure2.png)
     *図2*    
 
+
 3. .swiftlint.yml を追加する
+   
    プロジェクトのルートに `.swiftlint.yml` を追加します。
    ```
     .
@@ -125,6 +131,7 @@ touch Mintfile
 
 
 4. ビルドをしましょう
+
     `.swiftlint.yml` が反映されてない場合には一度クリーンビルド（⌘+Shift+K）をして、ビルドをしましょう。それでも反映されない場合には yaml の記述が正しいかの確認をしましょう。（余分なスペースなどに注意しましょう）
 
     SwiftLintが正しく動作しているかを確認する際には、以下のようにルールに反する文を書いてビルドをして確認しましょう。（図3）
@@ -134,6 +141,7 @@ touch Mintfile
     
     ![図3](/assets/swiftlint/images/figure3.png)
     *図3*
+
 
 ## 部分的にルールを無効化する
 

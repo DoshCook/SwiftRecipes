@@ -2,7 +2,7 @@
 title: "Introducing SwiftLint"
 category: "environment"
 description: "Install SwiftLint to make your iOS project code clean and unified. This will be essential to maintain the quality of your code."
-published: false
+published: true
 ---
 
 Install `SwiftLint` to make your project code clean and unified. This will be essential to maintain the quality of your code.
@@ -30,6 +30,7 @@ $ mint version
 </details>
 
 1. Installing
+   
     Create a `Mintfile` in the root of your project.
     ```bash
     cd ProjectName
@@ -60,7 +61,9 @@ $ mint version
     mint list
     ```
 
+
 2. Add a Run Script
+   
     Open your project in Xcode, open `TARGETS` > `BuidPhases`, and select `New Run Script Phase` from the + button.（Fregure 1）
     ![Figure 1](/assets/swiftlint/images/figure1.png)
     *Figure 1*
@@ -78,7 +81,9 @@ $ mint version
     ![Figure 2](/assets/swiftlint/images/figure2.png)
     *Figure 2*
 
+
 3. Add .swiftlint.yml
+   
    Create a `.swiftlint.yml` in the root of your project.
     ```
     .
@@ -123,7 +128,9 @@ $ mint version
 
     For more rules, see SwiftLint's [README](https://github.com/realm/SwiftLint#configuration).
 
+
 4. Let's build.
+   
    If the `.swiftlint.yml` is not reflected, do a clean build (⌘+Shift+K) and build it again. If it still doesn't work, make sure that the yaml (Be careful of extra spaces, etc.)
 
    When checking if SwiftLint is working correctly, write a statement that violates the rule and build it to check it, as shown below. (Figure 3)
@@ -134,6 +141,7 @@ $ mint version
 
     ![Figure 3](/assets/swiftlint/images/figure3.png)
     *Figure 3*
+
 
 ## Disable rules in code
 
